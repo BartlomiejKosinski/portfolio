@@ -129,6 +129,12 @@ nav:last-child{
         background-image: linear-gradient(72deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
         
     }
+    .name{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin: 1rem;
+        color: #181818;
+    }
     .container{
         display: block;
         height: 100vh;
@@ -137,13 +143,37 @@ nav:last-child{
         align-content: center;
         flex-direction: column;
     }
-    .avatar{ margin: 0 4rem; }
-    .left-upper{ margin: 0 4rem; }
+    header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav-button{
+        background-color: white;
+        color: #181818;
+        text-decoration: none;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+        margin: 1rem 0.5rem;
+    }
+    
+    .nav-button:hover{
+        background-color: #181818;
+        color: white;
+    }
+    
+    .nav-button-active{
+        background-color: #181818;
+        color: white;
+    }
+    .avatar{ width: 100%; }
+    .left-upper{ display: flex; justify-content: center;}
     .right-upper{ margin: 2rem; }
     .left-lower{ margin: 2rem; }
     .right-lower{ margin: 2rem; }
-    .hi-there{ text-align: center; }
-    .my-carrer{ text-align: center }
+    .hi-there{ text-align: center; font-size: 2.5rem;}
+    .my-carrer{ text-align: center; font-size: 1.5rem;}
     .my-professions{
         font-size: 1.2rem;
         line-height: 2rem;
