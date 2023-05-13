@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(175, 192, 255, 1);
+    background-image: linear-gradient(72deg, rgba(175, 192, 255, 1) 0%, rgba(255, 129, 222, 1) 50%, rgba(210, 92, 92, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 12px 0px rgba(66, 68, 90, 1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: #181818;
+}
+
+.nav-button{
+    background-color: white;
+    color: #181818;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+    margin: 1rem 0.5rem;
+}
+
+.nav-button:hover{
+    background-color: #181818;
+    color: white;
+}
+
+.nav-button-active{
+    background-color: #181818;
+    color: white;
+}
+
+nav:last-child{
+    margin: 0 1rem;
+}
+
+.avatar{
+    width: 70%;
+    height: 70%;
+    margin: 3rem 5rem;
+}
+
+.upper-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-upper{
+    width: 50%;
+}
+.right-upper{
+    width: 50%;
+    margin: 3rem 5rem;
+}
+
+.hi-there{
+    font-size: 3.5rem;
+}
+
+.my-carrer{
+    font-size: 2rem;
+}
+
+.default-text{
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+    color: #222f3e;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.lower-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-lower{
+    width: 60%;
+    margin: 2rem 5rem;
+}
+.right-lower{
+    width: 40%;
+    margin: 2rem;
+}
+
+.my-professions{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.8rem;
+}
