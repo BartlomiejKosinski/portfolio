@@ -118,16 +118,21 @@ nav:last-child{
 }
 
 .my-professions{
-    font-size: 1rem;
-    line-height: 1.5rem;
-    padding: 0.8rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #c8d6e5;
+    box-shadow: 2px 2px 6px 0px rgba(66, 68, 90, 1);
+    border-radius: 0.5rem;
 }
 
 @media (max-width: 640px) { 
     body{
         background-color: white;
         background-image: linear-gradient(72deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
-        
     }
     .name{
         font-size: 1.5rem;
@@ -170,14 +175,19 @@ nav:last-child{
     .avatar{ width: 100%; }
     .left-upper{ display: flex; justify-content: center;}
     .right-upper{ margin: 2rem; }
-    .left-lower{ margin: 2rem; }
-    .right-lower{ margin: 2rem; }
+    .left-lower{ text-align: left; width: 50%;}
+    .right-lower{ display:flex; flex-direction: column; text-align: left; width: 50%; }
     .hi-there{ text-align: center; font-size: 2.5rem;}
     .my-carrer{ text-align: center; font-size: 1.5rem;}
     .my-professions{
-        font-size: 1.2rem;
-        line-height: 2rem;
-        padding: 0.5rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 0;
+        margin: 0.3rem;
+        background-color: #c8d6e5;
+        box-shadow: 2px 2px 6px 0px rgba(66, 68, 90, 1);
+        border-radius: 0.5rem;
     }
     .upper-content{
         display: flex;
