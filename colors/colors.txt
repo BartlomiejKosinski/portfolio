@@ -1,0 +1,5 @@
+Text: #ededed (RGB: 237, 237, 237)
+Background: #222546 (RGB: 34, 37, 70)
+Primary Button: #29658a (RGB: 41, 101, 138)
+Secondary Button: #474866 (RGB: 71, 72, 102)
+Accent: #d1d2d6 (RGB: 209, 210, 214)
