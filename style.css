@@ -200,8 +200,8 @@ nav:last-child{
     .right-upper{ margin: 2rem; }
     .left-lower{ text-align: left; width: 50%;}
     .right-lower{ display:flex; flex-direction: column; text-align: left; width: 50%; }
-    .hi-there{ text-align: center; font-size: 2.5rem;}
-    .my-carrer{ text-align: center; font-size: 1.5rem;}
+    .hi-there{ text-align: left; font-size: 2.5rem;}
+    .my-carrer{ text-align: left; font-size: 1.5rem;}
     .my-professions{
         text-align: center;
         font-size: 1rem;
