@@ -157,6 +157,9 @@ nav:last-child{
 .hamburger{
     display: none;
 }
+.block{
+    display: block;
+}
 @media (max-width: 900px) { 
     .name{
         font-size: 2rem;
