@@ -232,3 +232,14 @@ nav:last-child{
         display: block;
     }
 }
+@media (max-width: 425px) { 
+    .container,
+    nav{
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .name{
+        font-size: 1.5rem;
+    }
+}
