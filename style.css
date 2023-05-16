@@ -15,22 +15,15 @@
     font-weight: 700;
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 10px;
 }
-  
-/* Track */
 ::-webkit-scrollbar-track {
 background: rgb(17, 18, 35);
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
 background: rgb(20, 50, 69);
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(30, 60, 80);
 }
@@ -45,7 +38,7 @@ body{
 }
 
 .container{
-    width: 80vw;
+    width: 90vw;
     height: 100vh;
 }
 
@@ -60,10 +53,13 @@ nav{
     justify-content: center;
     align-items: center;
 }
+nav:last-child{
+    margin: 0 1rem;
+}
 
 .name{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 0.5rem;
     margin: 1rem;
     color: var(--text);
@@ -83,23 +79,20 @@ nav{
     transform: translateY(-5px);
 }
 
-.nav-button-active{
+.nav-button:last-child{
     background-color: var(--primary-button);
 }
-.nav-button-active:hover{
+.nav-button:hover:last-child{
     -webkit-box-shadow: 4px 4px 12px 0px rgba(41, 101, 138, 1);
     -moz-box-shadow: 4px 4px 12px 0px rgba(41, 101, 138, 1);
     box-shadow: 4px 4px 12px 0px rgba(41, 101, 138, 1);
-}
-
-nav:last-child{
-    margin: 0 1rem;
 }
 
 .avatar{
     width: 70%;
     height: 70%;
     margin: 3rem 5rem;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 1);
 }
 
 .upper-content{
@@ -116,12 +109,12 @@ nav:last-child{
 }
 
 .hi-there{
-    color: var(--text);
+    color: var(--accent);
     font-size: 3.5rem;
 }
 
 .my-carrer{
-    color: var(--text);
+    color: var(--accent);
     font-size: 2rem;
 }
 
@@ -146,7 +139,6 @@ nav:last-child{
     width: 40%;
     margin: 2rem;
 }
-
 .my-professions{
     text-align: center;
     font-size: 1.2rem;
@@ -159,10 +151,15 @@ nav:last-child{
     box-shadow: 2px 2px 6px 0px rgba(66, 68, 90, 1);
     border-radius: 0.5rem;
 }
-
+#bi{
+    fill: var(--text);
+}
+.hamburger{
+    display: none;
+}
 @media (max-width: 900px) { 
     .name{
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding: 0.5rem;
         margin: 1rem;
     }
@@ -178,23 +175,31 @@ nav:last-child{
         justify-content: center;
         flex-direction: column;
     }
+    nav{
+        display: none;
+        width: 50%;
+        background-color: var(--secondary-button);
+        border-radius: 0.4rem;
+        padding: 1rem;
+        margin-top: 1rem;
+        box-shadow: 2px 2px 6px 0px rgba(66, 68, 90, 1);
+    }
     .nav-button{
+        display: block;
+        text-align: center;
         color: var(--text);
         text-decoration: none;
         border-radius: 0.5rem;
         font-size: 1rem;
         padding: 1rem 1.3rem;
         margin: 1rem 0.5rem;
-    }
-    
+    } 
     .nav-button:hover{
         color: white;
     }
-    
-    .nav-button-active{
-        background-color: var(--primary-button);
-        color: white;
-    }
+    .nav-button:last-child{
+        background-color: none;
+    }  
     .avatar{ width: 100%; }
     .left-upper{ display: flex; justify-content: center;}
     .right-upper{ margin: 2rem; }
@@ -222,5 +227,8 @@ nav:last-child{
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+    .hamburger{
+        display: block;
     }
 }
